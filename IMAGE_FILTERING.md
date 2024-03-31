@@ -204,6 +204,8 @@ En çok kullanılan Frekans Alanı Filtreleme Türleri şunlardır:
 
 - **Non-negative Matrix Factorization Filtering**: Non-negative matrix factorization filtreleme, bir görüntünün Fourier dönüşümüne Non-negative matrix factorization filtresi uygulayarak sinyal-gürültü oranını geliştirmek için kullanılan bir filtreleme türüdür.
 
+Filtreleme genel olarak filtre matrisinin görüntü üzerinde uygulanması ile gerçekleştirilir. Bu işlem, görüntüdeki her pikselin değerini, çekirdek matrisi ile konvolüsyon yaparak değiştirmek için kullanılır. Filtreleme işlemi, görüntüdeki kenarları geliştirmek, gürültüyü kaldırmak, bulanıklığı azaltmak ve diğer görüntü iyileştirme işlemleri için kullanılabilir.
+
 ## Kaynaklar
 
 - [Image Filtering](<https://en.wikipedia.org/wiki/Filter_(signal_processing)>)

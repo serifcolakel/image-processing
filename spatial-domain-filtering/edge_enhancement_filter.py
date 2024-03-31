@@ -4,7 +4,8 @@ from matplotlib import pyplot as plt
 import os as os
 os.chdir(os.path.dirname(__file__))
 
-# Edge Enhancement Filtering: Kenar geliştirme filtreleme, bir görüntüdeki kenarları vurgulamak için kullanılan bir filtreleme türüdür.
+# Edge Enhancement Filtering: Kenar geliştirme filtreleme, bir görüntüdeki 
+# kenarları vurgulamak için kullanılan bir filtreleme türüdür.
 
 # Örnek bir görüntü yükle
 image = cv2.imread('./images/lena.png', 0)  # Load as grayscale

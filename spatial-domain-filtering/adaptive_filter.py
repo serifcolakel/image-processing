@@ -4,7 +4,8 @@ from matplotlib import pyplot as plt
 import os as os
 os.chdir(os.path.dirname(__file__))
 
-# Adaptive Filtering: Adaptif filtreleme, bir görüntüdeki filtre çekirdeğini otomatik olarak ayarlamak için kullanılan bir filtreleme türüdür.
+# Adaptive Filtering: Adaptif filtreleme, bir görüntüdeki filtre çekirdeğini 
+# otomatik olarak ayarlamak için kullanılan bir filtreleme türüdür.
 
 # Örnek bir görüntü yükle
 image = cv2.imread('./images/lena.png', 0)  # Load as grayscale

@@ -4,7 +4,9 @@ from matplotlib import pyplot as plt
 import os as os
 os.chdir(os.path.dirname(__file__))
 
-# Band Pass Filtering: Band geçiren filtreler, belirli bir frekans aralığını korurken diğer frekans bileşenlerini bastırmak için kullanılır. Bu, belirli özelliklerin vurgulanması için kullanışlıdır.
+# Band Pass Filtering: Band geçiren filtreler, belirli bir frekans aralığını 
+# korurken diğer frekans bileşenlerini bastırmak için kullanılır. 
+# Bu, belirli özelliklerin vurgulanması için kullanışlıdır.
 
 image = cv2.imread('./images/noise_reduction_filter.png', 0)  # Load as grayscale
 
